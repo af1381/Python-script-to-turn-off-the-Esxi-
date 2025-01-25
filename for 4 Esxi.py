@@ -9,10 +9,10 @@ ssl_context.verify_mode = ssl.CERT_NONE
 
 # ESXi server details
 esxi_servers = [
-    {"host": "192.168.137.141", "user": "root", "password": "password1"},
-    {"host": "192.168.137.144", "user": "root", "password": "password2"},
-    {"host": "192.168.137.145", "user": "root", "password": "password3"},
-    {"host": "192.168.137.146", "user": "root", "password": "password4"},
+    {"host": "ip-Esxi-1", "user": "root", "password": "password1"},
+    {"host": "ip-Esxi-2", "user": "root", "password": "password2"},
+    {"host": "ip-Esxi-3", "user": "root", "password": "password3"},
+    {"host": "ip-Esxi-4", "user": "root", "password": "password4"},
 ]
 
 def shutdown_esxi(host, user, password):
