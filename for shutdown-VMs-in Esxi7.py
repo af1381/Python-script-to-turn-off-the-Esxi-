@@ -8,8 +8,8 @@ ssl_context.verify_mode = ssl.CERT_NONE
 
 # ESXi server details
 esxi_servers = [
-    {"host": "192.168.137.141", "user": "root", "password": "Ahm@d1381"},
-    {"host": "192.168.137.144", "user": "root", "password": "Ahm@d1381"},
+    {"host": "ip-Esxi", "user": "root", "password": "Your-password"},
+    {"host": "ip-Esxi", "user": "root", "password": "Your-password"},
 ]
 
 def shutdown_vms(host, user, password):
