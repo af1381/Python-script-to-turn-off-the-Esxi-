@@ -1,1 +1,13 @@
+[
+    {
+        "host": "ip-address-Esxi",
+        "user": "root",
+        "password": "your-pass"
+    },
+    {
+        "host": "ip-address-Esxi",
+        "user": "root",
+        "password": "your-pass"
+    }
+]
 
